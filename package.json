@@ -1,0 +1,20 @@
+{
+  "name": "api-de-usuarios",
+  "version": "0.1.0",
+  "description": "API simples de usuários em Node.js usando Express",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Não há testes configurados\" && exit 0"
+  },
+  "keywords": ["api", "usuarios", "nodejs", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
